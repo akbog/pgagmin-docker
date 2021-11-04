@@ -27,6 +27,3 @@ Always appreciated.
 Contributors names and contact info
 
     Alexander Bogdanowicz[@akbog]
-    Roberto Noel[@robertopablonoel]
-
-## Acknowledgments
