@@ -5,6 +5,6 @@ services :
     ports :
       - "5556:80"
     volumes :
-      - /Users/bogdanowicz/Documents/Global/docker-pgadmin/docker-pgadmin-data:/root/.pgadmin.
+      - ${PATH-TO-LOCAL-VOLUME}:/root/.pgadmin.
     env_file:
       - .env
