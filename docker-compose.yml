@@ -1,0 +1,10 @@
+version : "3"
+services :
+  pd_admin :
+    image : "dpage/pgadmin4"
+    ports :
+      - "5556:80"
+    volumes :
+      - /Users/bogdanowicz/Documents/Global/docker-pgadmin/docker-pgadmin-data:/root/.pgadmin.
+    env_file:
+      - .env
